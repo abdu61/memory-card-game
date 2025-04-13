@@ -22,7 +22,7 @@ export default function Card({ character, onSelect, isFlipping }) {
           <h3>{character.name}</h3>
         </div>
         <div className="card-back">
-          <img src="/src/assets/images/logo.png" alt="Card Back" />
+          <img src="/images/logo.png" alt="Card Back" />
         </div>
       </div>
     </div>
