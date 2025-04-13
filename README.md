@@ -1,12 +1,91 @@
-# React + Vite
+# SpongeBob Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-blue?style=for-the-badge)](https://memory-card-game-evl.pages.dev/)
 
-Currently, two official plugins are available:
+A fun and interactive memory card game featuring characters from SpongeBob SquarePants. Test your memory by finding matching cards!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Game Features
 
-## Expanding the ESLint configuration
+- Three difficulty levels: Easy, Medium, and Hard
+- Character cards from the SpongeBob universe
+- Score tracking and best score memory
+- Responsive design for mobile and desktop
+- Animated card flips and transitions
+- Game state persistence
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React** - UI library
+- **Vite** - Build tool
+- **CSS3** - Styling with custom animations
+- **React Context API** - State management
+- **vite-plugin-image-optimizer** - Image optimization
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or newer)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/abdu61/memory-card-game.git
+cd memory-card
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+4. Build for production
+```bash
+npm run build
+```
+
+## 📝 How to Play
+
+1. Select a difficulty level on the start screen
+2. Click on a card to flip it
+3. Try to remember the location of each character
+4. Match all pairs to win the game
+5. Try to achieve the highest score by making fewer matching attempts
+
+## 📋 Project Structure
+
+```
+memory-card/
+├── public/         # Static assets and images
+├── src/
+│   ├── assets/     # App assets
+│   ├── components/ # UI components
+│   ├── context/    # Game state management
+│   ├── data/       # Character data
+│   ├── pages/      # Game pages
+│   └── utils/      # Utility functions
+└── vite.config.js  # Vite configuration
+```
+
+## 🔧 Future Improvements
+
+- Add sound effects
+- Add a timer mode
+- Implement additional themes
+- Add multiplayer functionality
+
+## 📄 License
+
+[MIT](LICENSE)
+
+## 🙏 Acknowledgements
+
+- SpongeBob character images and concept
+- React and Vite communities
