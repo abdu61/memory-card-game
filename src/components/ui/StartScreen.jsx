@@ -20,7 +20,7 @@ export default function StartScreen() {
     <div className="start-screen">
       <div className="start-content">
         <div className="logo-container">
-          <img src="/src/assets/images/logo.png" alt="SpongeBob Logo" className="game-logo" />
+          <img src="/images/logo.png" alt="SpongeBob Logo" className="game-logo" />
         </div>
         <h2 className="game-subtitle">Memory Game</h2>
         
