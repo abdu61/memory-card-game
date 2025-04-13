@@ -52,7 +52,35 @@
   line-height: 1.4;
 }
 
-/* Animation for opening/closing the panel */
 .help-panel.open .help-toggle {
   background-color: #f44336;
+}
+
+@media (max-width: 768px) {
+  .help-panel {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .help-content {
+    width: 400px;
+    bottom: 70px;
+    right: 10px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .help-toggle {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+
+  .help-content {
+    width: 300px;
+    bottom: 60px;
+    right: 0px;
+    padding: 15px;
+  }
 }

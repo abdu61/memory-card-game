@@ -102,3 +102,76 @@
   background-color: #f57c00;
   transform: scale(1.05);
 }
+
+
+@media (max-width: 768px) {
+
+  .start-content {
+    padding: 15px 20px;
+    margin: 0 20px;
+  }
+
+  .game-logo {
+    max-width: 90%;
+    min-width: auto; 
+  }
+
+  .game-subtitle {
+    font-size: 2rem;
+  }
+
+  .difficulty-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .difficulty-button {
+    width: 180px; 
+    padding: 12px 15px;
+    font-size: 1rem; 
+  }
+
+  .start-button {
+    padding: 12px 30px;
+    font-size: 1.5rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .start-content {
+    padding: 0px 5px;
+    margin: 0 10px;
+  }
+
+  .game-logo {
+    max-width: 100%; 
+    max-height: 200px; 
+  }
+
+  .game-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .difficulty-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .difficulty-options {
+    gap: 10px; 
+  }
+
+  .difficulty-button {
+    width: 100%; 
+    max-width: 200px;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .difficulty-info {
+    font-size: 0.7rem;
+  }
+
+  .start-button {
+    padding: 10px 25px;
+    font-size: 1.3rem;
+  }
+}
